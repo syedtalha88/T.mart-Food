@@ -35,41 +35,41 @@ let AppList = () => {
 
 const AppRouter= createBrowserRouter([
   {
-    path:"/",
+    path:"/T.mart-Food/",
     element:<AppList/>,
     children:[
       {
-        path:"/",
+        path:"/T.mart-Food/",
         element:<Main/>
 
       },
       {
-        path:"/about",
+        path:"/T.mart-Food/about",
         element:<About/>,
       },
       {
-        path:"/restaurants/:resId",
+        path:"/T.mart-Food/restaurants/:resId",
         element:<Menu/>,
       },
       {
-        path:"/cart",
+        path:"/T.mart-Food/cart",
         element:<Cart/>,
       },
       {
-        path:"/accounts",
+        path:"/T.mart-Food/accounts",
         element:<Accounts/>
       },
       {
-        path:"/cart/signup",
+        path:"/T.mart-Food/cart/signup",
         element:<SignUp/>
       },
       {
-        path:"/cart/signin",
+        path:"/T.mart-Food/cart/signin",
         element:<SignIn/>
       }
       ,
       {
-        path:"/cart/payment",
+        path:"/T.mart-Food/cart/payment",
         element:<Payment/>
       }
 
