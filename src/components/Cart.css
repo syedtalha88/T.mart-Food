@@ -1,0 +1,137 @@
+
+
+.CartHeading{
+    height: 200px;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    margin: 30px 40px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'montserrat';
+    /* font-weight: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.CartHeading-wrapper p{
+color: white;
+}
+.CheckoutName{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.cart-wrapper{
+    margin: 20px 6%;
+    display: flex;
+}
+.cart-account{
+    width: 60%;
+    margin-right:  25px;
+}
+.cart-header-wrapper{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    font-family: 'montserrat';
+    color: var(--para-color-white);
+    border-radius: 20px;
+}
+
+.cart-account-icon{
+    font-size: 30px;
+
+}
+.cart-account-name{
+    margin: 5px;
+    font-family: 10px;
+}
+.active{
+    color: var(--average-color);
+}
+.cart-display{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'poppins';
+
+}
+.account-image{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.cart-display h2{
+    color: var(--Heading-color);
+    margin-top: 10px;
+}
+.cart-display p{
+    color: var(--para-color-white);
+    margin-bottom: 40px;
+}
+.cart-display button{
+    margin: 0 10px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid var(--average-color);
+    border-radius: 8px;
+    color: var(--average-color);
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+.Cart-container{
+    background-color: white;
+    width: 38%;
+    border-radius: 20px;
+}
+.cartBill{
+    margin: 20px;
+    font-family: 'montserrat';
+
+}
+.subTotal{
+    font-size: 20px;
+}
+.subTotal-price{
+    font-weight: bold;
+}
+.ToPay{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.ToPay-price{
+    color: green;
+}
+.subTotal{
+    display: flex;
+    justify-content: space-between;
+}
+.green {
+    color: green;
+}
+.Checkout{
+    width: 70%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--average-color);
+    background:linear-gradient(to right, var(--primary-color),var(--secondary-color));
+    color: white;
+    font-size: 18px;
+    font-family: 'poppins';
+}
+.checkout-button{
+    display: flex;
+    justify-content: space-between;
+}

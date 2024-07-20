@@ -1,0 +1,138 @@
+
+
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* border-bottom: 2px solid brown; */
+    box-shadow: 0px 2px 20px -8px rgba(143,143,143,0.5); ;
+}
+.logo{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.logo h1{
+    font-family: "playwrite NZ";
+}
+.location{
+    font-size: 20px;
+    font-family: 'montserrat';
+    background :linear-gradient(to right,var(--primary-color),var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 2px solid var(--secondary-color);
+
+}
+.logo h1 i{
+    background :linear-gradient(to right,rgba(242, 169, 62,1),rgba(240, 112, 84,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.logo img{
+    width: 30px;
+    height: auto;
+}
+.menuList{
+    display: flex;
+    /* margin-right: 40px; */
+}
+.listItem {
+    
+    margin-left: 50px;
+}
+.listItem i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.listItem a{
+    color: rgba(0,0,0,0.8);
+    font-family: 'poppins';
+    font-size: 14px;
+    font-weight: 500;
+}
+.listItem a:hover{
+    color: rgb(255, 128, 0);
+    /* text-decoration: underline; */
+}
+.search-bar{
+    width: 300px ;
+    height: 75px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.searchbtn{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    padding: 5px 7px;
+    font-size: 19px;
+    border-radius: 5px;
+    /* outline: 6px solid white; */
+    border: 1px solid var(--secondary-color);
+    color: white;
+    /* display: none; */
+    transform: scale(1);
+    transform-origin: top center;
+    opacity: 1;
+}
+.card-popular-search ul {
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat';
+    font-weight: bold;
+    /* align-items: center; */
+}
+.filterr{
+    margin:5px 10px;
+    font-family: 'montserrat';
+}
+
+.card-popular-search ul li {
+    margin:5px  10px ;
+    padding: 0 10px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.closebtnn{
+    font-size: 25px;
+}
+
+.search-bar input{
+    float: right;
+    transform: scale(1);
+    transform-origin: top center;
+    opacity: 1;
+    width: 300px;
+    height: 35px;
+    /* margin-top: 30px ; */
+    border-radius: 5px;
+    padding:0 15px;
+    font-size: 16px;
+    margin:0 20px;
+    border: 2px solid var(--average-color);
+    /* color: brown;    */
+
+}
+.search-bar input:focus{
+    /* border: none; */
+    outline: none;
+}

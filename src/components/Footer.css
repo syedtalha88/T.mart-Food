@@ -1,0 +1,127 @@
+.Footer-container{
+    padding: 0 70px;
+
+}
+.email-container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'montserrat';
+        font-size: 1.7vw;
+        height: 180px;
+        border-bottom: 2px solid var(--para-color);
+        padding-bottom: 20px;
+    }
+    .email-content{
+        width: 50%;
+    }
+.email-input input{
+    font-family: 'montserrat';
+    width: 500px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+.email-input button{
+    width: 100px;
+    height: 40px;
+    
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, var(--primary-color),var(--secondary-color));
+    font-family: 'montserrat';
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-left: -100px;
+    padding-bottom: 2px;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.Footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-brand-container{
+    width: 30%;
+    margin: 40px 0;
+}
+.footer-brand-content h1{
+    font-family: 'playwrite NZ';
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Heading-color);
+}
+.footer-brand-content p{
+    font-family: 'poppins';
+    color: var(--para-color-white);
+    margin: 20px 0;
+
+}
+.footer-social{
+    margin-top: 40px;
+}
+.fa-brands{
+    margin-right:  40px;
+    font-size: 20px;
+}
+.footer-link-container{
+    display: flex;
+}
+.footer-link-container{
+    margin-top: 60px;
+
+}
+.footer-link-content{
+    margin-left: 150px;
+}
+.footer-link-content h3{
+    font-family: 'playwrite NZ';
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Heading-color);
+    margin-bottom: 30px;
+}
+
+.footer-link-content ul{
+    display: grid;
+    row-gap: 14px;
+    font-size: 16px;
+    font-family: 'poppins';
+}
+.footer-link-content li a{
+    color: var(--para-color-white);
+    transition: color .3s;
+    position: relative;
+}
+.footer-link-content li a::after{
+    content: "";
+    background-color: var(--Heading-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: .2s;
+}
+.footer-link-content li a:hover::after{
+    width: 100%;
+    background-color: var(--average-color);
+    
+}
+
+.footer-link-content li a:hover{
+    color: var(--average-color);
+
+}
+.footer-copyright-content p{
+    font-family: 'montserrat';
+    margin-bottom: 20px;
+}

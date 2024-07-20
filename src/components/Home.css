@@ -1,0 +1,218 @@
+
+.Home-Container{
+    /* width: 100%; */
+    height: 530px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+    background:var(--home-background-color) ;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    margin: 40px 70px;
+    border-radius: 50px;
+}
+.Home-content{
+    margin: 60px 80px;
+}
+.Home-offer span{
+    font-family: 'poppins';
+    font-weight: bold;
+    /* width: 300px; */
+    background-color: rgba(255, 184, 85, 0.2);
+    padding: 2px 8px;
+    border-radius: 25px;
+    color: var(--primary-color);
+}
+.Home-heading h3{
+    font-family: 'montserrat';
+    color: white;
+    font-size: 2.6vw;
+    margin: 20px 0;
+
+}
+.Home-heading p{
+    color: var(--para-color);
+    font-family: 'montserrat';
+    font-size: 1.2vw;
+    margin-bottom: 20px;
+}
+.Home-search{
+    position: relative;
+    margin-top: 40px;
+    width: 600px;
+
+}
+.Home-search input{
+    background-color: #1d1c20;
+    width: 600px;
+    height:40px;
+    border-radius: 25px;
+    box-shadow: inset 0px 32px 11px -27px rgba(94,87,94,0.98);
+    position: relative;
+    border: none;
+    outline: none;
+    color: var(--para-color);
+    font-size: 16px;
+    font-family: 'poppins';
+    padding-left:  15px;
+}
+.Home-search-icon{
+color: var(--para-color);
+width: 600px;
+font-size: 20px;
+}
+.Home-search i{
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 10px;
+}
+.Home-search button{
+    margin: 20px 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    background :linear-gradient(to right,var(--primary-color),var(--secondary-color));
+    color: white;
+    font-size: 16px;
+    font-family: 'poppins';
+} 
+.burg{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 160px;
+}  
+.pizz{
+    position: absolute;
+    /* bottom: 100px; */
+    top: 400px;
+    left: 0;
+    width: 160px;
+}  
+.Home-image{
+    margin-right: 30px;
+    margin-top: 40px;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* Responsive */
+
+
+@media only screen and (max-width: 1550px) {
+    .Home-search input{
+        width: 400px;
+    }
+    .Home-search {
+        width: 400px;
+    }
+    .Home-search-icon{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .Home-image img{
+        width: 400px;
+        margin-top: 50px;
+        
+    }
+    .Home-search input{
+        width: 300px;
+    }
+    .Home-search {
+        width: 300px;
+    }
+    .Home-search-icon{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Home-image {
+        display: none;
+    }
+    .Home-Container{
+        text-align: center;
+        display: block;
+        padding-top: 50px;
+    }
+    .Home-search{
+        margin: 20px auto;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    
+    .Home-content{
+        margin: 20px;
+        margin-top: 50px;
+    }
+    .Home-search {
+        width: 100%;
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .Home-search input{
+        width: 100%;
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .Home-search-icon{
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+
+    .Home-Container{
+        height: 500px;
+        margin: 20px;
+    }
+    .Home-offer span{
+        font-size: 2vh;
+        width: auto;
+    }
+    .Home-heading h3{
+        font-size: 5vw;
+    }
+    .Home-heading p{
+        font-size: 3.8vw;
+    }
+    .Home-search input{
+        width: 100%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .Home-search-icon{
+        font-size: 14px;
+        
+    }
+    .Home-search button{
+        width: 100%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .burg{
+        width: 100px;
+        top: 15px;
+    }
+    .pizz{
+        width: 100px;
+        /* left: 20px; */
+        top: 450px;
+    }
+}

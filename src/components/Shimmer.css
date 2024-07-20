@@ -1,0 +1,83 @@
+
+.shimmer-container{
+    width: 1200px;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    padding: 5px;
+    margin: 20px 20px;
+    background-color: #dadada;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.shimmer-card::after{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    content:"";
+    background: linear-gradient(#dadada,#f2f2f2,#dadada);
+    transform: rotate(120deg);
+    animation: animation 1.8s infinite;
+    /* background-size: 1200px 100%; */
+}
+@keyframes animation{
+    0%{left: -200%}
+    100%{left:150%}
+}
+.shimmer-search-btn{
+    /* position: absolute; */
+    width: 43px;
+    height: 43px;
+    margin: 0 auto;
+    background-color: #dadada;
+    margin-top: -20px;
+    font-size: 25px;
+    position: relative;
+    border-radius: 50%;
+    outline: 6px solid white;
+    overflow: hidden;
+}
+.shimmer-search-btn::after{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    content:"";
+    background: linear-gradient(#dadada,#f2f2f2,#dadada);
+    transform: rotate(120deg);
+    animation: animation 2s infinite;
+    /* background-size: 1200px 100%; */
+}
+.shimmer-search-bar{
+    width: 700px ;
+    height: 35px;
+    border-radius: 35px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    /* position: relative; */
+    margin-bottom: 45px;
+    margin-top: 10px;
+    position: relative;
+    background-color: #dadada;
+    overflow: hidden;
+}
+.shimmer-search-bar::after{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    content:"";
+    background: linear-gradient(#dadada,#f2f2f2,#dadada);
+    transform: rotate(120deg);
+    animation: animate 2s infinite;
+}
+@keyframes animate{
+    0%{left: -10%}
+    100%{left:100%}
+}

@@ -1,0 +1,50 @@
+
+
+
+.confirm-container{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'montserrat';
+}
+.captcha {
+    display: flex;
+    justify-content: center;
+
+}
+.captcha img{
+    width: 250px;
+    margin: 30px 0;
+}
+.confirm-container p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: var(--para-color-white);
+}
+.confirm-container input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid var(--para-color-white);
+    border-radius: 10px;
+    font-family: 'poppins';
+    font-size: 18px;
+}
+
+.confirm-container button{
+    width: 100px;
+    /* padding: 10px; */
+    height: 35px;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    border: none;
+    /* outline: none; */
+    font-size: 16px;
+    font-family: 'poppins';
+    color: white;
+    background:linear-gradient(to right, var(--primary-color), var(--secondary-color));
+   
+}

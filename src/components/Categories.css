@@ -1,0 +1,119 @@
+
+.Categories-Container{
+    margin: 0 70px;
+    margin-top: 60px;
+}
+.Categories-heading h1{
+    font-family: 'poppins';
+    color: var(--Heading-color);
+    font-size: 30px;
+    /* margin: 20px 0; */
+}
+.Categories-heading p{
+    color: var(--para-color-white);
+    font-family: 'poppins';
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.Categories-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+    border-bottom: 6px solid var(--average-color);
+}
+.Category-image{
+    width: 18vw;
+    height: 180px;
+    margin: 30px 30px;
+}
+.Category-image-wrapper{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: .3s border;
+    transition: .3s box-shadow;
+    
+}
+.Category-image-wrapper:hover{
+    border: 1px solid var(--average-color);
+    box-shadow: 0 5px 10px var(--average-color);
+}
+.Category-image img{
+    /* width: auto; */
+    height: 200px;
+    margin: 0 auto;
+}
+.loadmorebtn{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.loadmorebtn i{
+
+    padding: 0 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    background :linear-gradient(to right,var(--primary-color),var(--secondary-color));
+    transition: .3s padding;
+}
+.loadmorebtn i:hover{
+    padding: 7px 30px;
+}
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 1400px) 
+{
+    .Category-image{
+        
+        width: 40%;
+        
+    }
+}
+@media only screen and (max-width: 750px) 
+{
+    .Categories-Container{
+        margin: 0 20px;
+    }
+   
+.Category-image{
+       width: 40%;
+    /* width: 18vw; */
+    height: 140px;
+    margin: 20px;
+}
+.Category-image img{
+    /* width: auto; */
+    height: 160px;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 550px) 
+{
+   
+.Category-image{
+       width: 40%;
+    /* width: 18vw; */
+    height: 100px;
+    margin: 10px;
+}
+.Category-image img{
+    /* width: auto; */
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+}
