@@ -20,7 +20,7 @@ let Header = () => {
         <div className="menu">
           <ul className="menuList">
             <li className="listItem">
-              <Link to="/"><i class="fa-solid fa-suitcase"></i> T.mart Corporate</Link>
+              <Link to="/"><i class="fa-solid fa-suitcase"></i> T.mart </Link>
               
             </li>
             <li className="listItem">

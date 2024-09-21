@@ -74,6 +74,7 @@
 }
 .footer-link-container{
     display: flex;
+    justify-content: space-between;
 }
 .footer-link-container{
     margin-top: 60px;
@@ -125,3 +126,191 @@
     font-family: 'montserrat';
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 1300px) 
+{
+    .footer-copyright-content{
+        text-align: center;
+    }
+    .email-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .email-content{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Footer-content{
+        flex-direction: column;
+    }
+    .footer-brand-container{
+        /* width: 100%; */
+        width: 70%;
+        margin: 20px auto;
+        text-align: center;
+        
+    }
+    .footer-link-container{
+        /* width: 100%; */
+        width: 70%;
+        margin: 20px auto;
+        text-align: center;
+
+        /* padding:0; */
+    }
+    .footer-link-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-link-container{
+        margin-top: 60px;
+    
+    }
+    .footer-link-content{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .email-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .email-input input{
+        width: 300px;
+    }
+    .email-input button{
+        width: 100px;
+    }
+    
+    .Footer-content{
+        flex-direction: column;
+    }
+    .footer-brand-container{
+        /* width: 100%; */
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        
+    }
+    .footer-link-container{
+        /* width: 100%; */
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+}
+}
+@media only screen and (max-width: 500px) {
+    .Footer-container{
+        width: 100%;
+        padding: 10px;
+    }
+    .email-container {
+        font-size: 15px;
+    }
+
+    .email-input input {
+        font-size: 13px;
+    }
+
+    .email-input button {
+        font-size: 13px;
+    }
+
+    .footer-brand-content h1 {
+        font-size: 30px;
+    }
+
+    .footer-brand-content p {
+        font-size: 14px;
+    }
+
+    .footer-link-content h3 {
+        font-size: 16px;
+    }
+
+    .footer-link-content ul {
+        font-size: 14px;
+    }
+
+    .footer-copyright-content p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .email-input input{
+        width: 260px;
+    }
+    .email-container {
+        font-size: 14px;
+    }
+
+    .email-input input {
+        font-size: 12px;
+    }
+
+    .email-input button {
+        font-size: 12px;
+    }
+
+    .footer-brand-content h1 {
+        font-size: 28px;
+    }
+
+    .footer-brand-content p {
+        font-size: 13px;
+    }
+
+    .footer-link-content h3 {
+        font-size: 15px;
+    }
+
+    .footer-link-content ul {
+        font-size: 13px;
+    }
+
+    .footer-copyright-content p {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .email-container {
+        font-size: 12px;
+    }
+
+    .email-input input {
+        font-size: 10px;
+    }
+
+    .email-input button {
+        font-size: 10px;
+    }
+
+    .footer-brand-content h1 {
+        font-size: 24px;
+    }
+
+    .footer-brand-content p {
+        font-size: 12px;
+    }
+
+    .footer-link-content h3 {
+        font-size: 14px;
+    }
+
+    .footer-link-content ul {
+        font-size: 12px;
+    }
+
+    .footer-copyright-content p {
+        font-size: 10px;
+    }
+}
+

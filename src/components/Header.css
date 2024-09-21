@@ -136,3 +136,151 @@
     /* border: none; */
     outline: none;
 }
+@media only screen and (max-width: 1250px) 
+{
+    .listItem {
+    
+        margin-left: 30px;
+    }
+    .listItem i{
+        font-size: 13px;
+        margin-right: 6px;
+    }
+    .listItem a{
+        color: rgba(0,0,0,0.8);
+        font-family: 'poppins';
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 1050px)
+{
+
+    .navbar{
+        padding: 0;
+        padding-left: 20px;
+        flex-direction: column;
+        
+    }
+    .logo{
+        align-self: start;
+        /* line-height: 60px; */
+    }
+    .menu{
+        
+        display: block;
+        margin: -100px;
+    }
+    .menuList{
+        flex-direction: column;
+
+        row-gap: 40px;
+        /* margin-top: -200px; */
+        /* display: block; */
+        padding: 100px 240px;
+        /* padding-top: 18vh; */
+        margin: 0;
+        background-color: var(--average-color);
+        /* border-bottom-left-radius: 200px; */
+        border-radius: 350px;
+        
+    }
+    .listItem{
+        padding:0 10px;
+        padding-top: 2px;
+        margin: 0;
+        padding-bottom: 5px;
+        border-left: 4px solid white;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom: 4px solid white;
+        transition: .2s background-color;
+
+    }
+    .listItem:hover{
+        /* border-top: 2px solid white; */
+        background-color: white;
+        /* outline: 2px solid white; */
+    }
+
+    .listItem i{
+        font-size: 18px;
+        /* margin-right: 6px; */
+    }
+    .listItem a{
+        color: rgba(0,0,0,0.8);
+        font-family: 'poppins';
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .listItem a:hover{
+        color: rgba(0,0,0,0.8);
+        /* color:var(); */
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .logo{
+        align-self: start;
+        justify-content: start;
+    }
+    .navbar{
+        padding: 0;
+        padding-left: 20px;
+        flex-direction: column;
+        
+    }
+    .location{
+        display: none;
+    }
+    .logo{
+        align-self: start;
+    }
+    .menu{
+        
+        display: block;
+        margin: -90px;
+    }
+    .menuList{
+        flex-direction: column;
+
+        row-gap: 2vw;
+        /* margin-top: -200px; */
+        /* display: block; */
+        padding: 10% 25vw;
+        /* padding-top: 18vh; */
+        margin: 0;
+        background-color: var(--average-color);
+        /* border-bottom-left-radius: 200px; */
+        border-radius: 350px;
+        /* display: none; */
+        
+    }
+    .listItem i{
+        font-size: 4vw;
+        /* margin-right: 6px; */
+    }
+    .listItem a{
+        color: rgba(0,0,0,0.8);
+        font-family: 'poppins';
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .listItem a:hover{
+        color: rgba(0,0,0,0.8);
+        /* color:var(); */
+    }
+}
+@media only screen and (max-width:400px){
+    .menu{
+        margin-top: -70px;
+    }
+    .logo{
+        width: 100%;
+        font-size: 12px;
+        
+        margin-top: 10px;
+    }
+}
