@@ -184,6 +184,8 @@
         background-color: var(--average-color);
         /* border-bottom-left-radius: 200px; */
         border-radius: 350px;
+        z-index: 100;
+        display: none;
         
     }
     .listItem{
