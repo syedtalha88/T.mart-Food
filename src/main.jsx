@@ -23,9 +23,9 @@ let AppList = () => {
       <Provider store={appStore}>
       <Header />
   
-      {/* <Outlet/> */}
+      <Outlet/>
       
-      {/* <Footer/> */}
+      <Footer/>
       </Provider>
     </>
   );
