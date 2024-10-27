@@ -26,7 +26,7 @@ const SignIn = () => {
                 </div><br />
                 <button type="submit">Continue</button>
             </form>
-            <p>Don't have an account? <Link to="/cart/signup" ><span> Sign Up</span></Link></p>
+            <p>Don't have an account? <Link to="/T.mart-Food/cart/signup" ><span> Sign Up</span></Link></p>
             <p className="terms">By creating an account, I accept the <span>Terms & conditions & Privacy Policy</span></p>
     
         </div>

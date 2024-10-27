@@ -20,23 +20,23 @@ let Header = () => {
         <div className="menu">
           <ul className="menuList">
             <li className="listItem">
-              <Link to="/"><i class="fa-solid fa-suitcase"></i> T.mart </Link>
+              <Link to="/T.mart-Food"><i class="fa-solid fa-suitcase"></i> T.mart </Link>
               
             </li>
             <li className="listItem">
-              <Link to="About"><i class="fa-solid fa-magnifying-glass"></i> Search</Link>
+              <Link to="/T.mart-Food"><i class="fa-solid fa-magnifying-glass"></i> Search</Link>
             </li>
             <li className="listItem">
-              <Link to=""><i class="fa-solid fa-percent"></i>   Offers</Link>
+              <Link to="/T.mart-Food/"><i class="fa-solid fa-percent"></i>   Offers</Link>
             </li>
             <li className="listItem">
-              <Link to=""><i class="fa-solid fa-circle-info"></i> Help</Link>
+              <Link to="/T.mart-Food/"><i class="fa-solid fa-circle-info"></i> Help</Link>
             </li>
             <li className="listItem">
-              <Link to=""><i class="fa-solid fa-user"></i> Sign In</Link>
+              <Link to="/T.mart-Food/cart/signin"><i class="fa-solid fa-user"></i> Sign In</Link>
             </li>
             <li className="listItem">
-              <Link to="/cart"><i class="fa-solid fa-cart-shopping"></i> Cart ({cartItems.length})</Link>
+              <Link to="/T.mart-Food/cart"><i class="fa-solid fa-cart-shopping"></i> Cart ({cartItems.length})</Link>
             </li>
             {/* <li className="listItem" id="onlineStatus">{onlineStatus ? "Online🧶" : "Offline🏮" }</li> */}
           </ul>

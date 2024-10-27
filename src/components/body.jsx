@@ -16,14 +16,19 @@ export let CardWrapper = () => {
   const onlineStatus = useOnlineStatus();
   const OpenRestaurantCard = CardIsOpen(Card);
   useEffect(() => {
-    setListOfRestaurant(
-      resList?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants
-    );
-    setFilteredListOfRestaurant(
-      resList?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants
-    );
+
+
+    fetchData();
+
+
+    // setListOfRestaurant(
+    //   resList?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+    //     ?.restaurants
+    // );
+    // setFilteredListOfRestaurant(
+    //   resList?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+    //     ?.restaurants
+    // );
   }, []);
 
   const fetchData = async () => {
@@ -31,6 +36,14 @@ export let CardWrapper = () => {
     const json1 = await data.json();
 
     console.log(json1);
+    setListOfRestaurant(
+        resList?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+          ?.restaurants
+      );
+      setFilteredListOfRestaurant(
+        resList?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+          ?.restaurants
+      );
     // console.log(listOfRestaurant);
   };
  
@@ -144,7 +157,7 @@ export let CardWrapper = () => {
         {filteredListOfRestaurant.slice(0, displayCount).map((e) => {
           // console.log(e.length);
           return (
-            <Link key={e.info?.id} to={"/restaurants/" + e.info?.id}>
+            <Link key={e.info?.id} to={"/T.mart-Food/restaurants/" + e.info?.id}>
               {" "}
               {e.info?.isOpen ? (
                 <OpenRestaurantCard resData={e} />

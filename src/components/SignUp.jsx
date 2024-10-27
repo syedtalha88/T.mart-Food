@@ -30,7 +30,7 @@ const SignUp = () => {
                 </div><br />
                 <button type="submit">Continue</button>
             </form>
-            <p>Already have an account? <Link to="/cart/signin" ><span> Sign In</span></Link></p>
+            <p>Already have an account? <Link to="/T.mart-Food/cart/signin" ><span> Sign In</span></Link></p>
             <p className="terms">By creating an account, I accept the <span>Terms & conditions & Privacy Policy</span></p>
     
         </div>

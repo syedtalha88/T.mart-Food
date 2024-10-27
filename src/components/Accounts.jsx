@@ -13,8 +13,8 @@ const Accounts = () => {
                                 <h2>Account</h2>
                                 <p>To place yoiur order now, log into your existing account or sign up</p>
                                 <div className="account-buttons">
-                                   <Link to="/cart/signin"> <button className="signin">SIGN IN</button></Link>
-                                   <Link to="/cart/signup"><button className="signin">SIGN UP</button></Link>
+                                   <Link to="/T.mart-Food/cart/signin"> <button className="signin">SIGN IN</button></Link>
+                                   <Link to="/T.mart-Food/cart/signup"><button className="signin">SIGN UP</button></Link>
                                 </div>
                             </div>
                     </div>
